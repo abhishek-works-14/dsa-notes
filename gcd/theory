@@ -1,0 +1,26 @@
+Gcd logic is in eucledian algo which says that you can subtract 2 numbers from each other and there gcd would still be same
+
+if a > b,
+so you can go like gcd (a,b) = gcd(a-b, a)
+
+like a = 10, b = 5
+gcd(10,5) = gcd (10-5, 5) = gcd(5,5)
+gcd(5,5) = gcd(5-5,5) = gcd(0,5)
+
+once you reach zero, then the other number is GCD
+
+So a simple subtract code could work but that is very slow, what you can do is see something like this
+
+a - b, b
+a - 2b, b
+a- 3b, b
+a - 4b, b
+...
+a - k*b, b
+
+where k is max times B can be subtracted before it going small,
+
+MEANING
+
+we could directly do gcd (a,b) = gcd(a%b,b)
+till again the someone reaches zero
