@@ -1,4 +1,4 @@
-class Solution {
+class Gcd {
     public static int gcd(int a, int b) {
         // code here
         while(a != 0 && b != 0){

@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class Divisors {
     public static void print_divisors(int n) {
         // code here
         List<Integer> res1 = new ArrayList<>();
