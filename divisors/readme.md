@@ -12,7 +12,7 @@ so we can see it goes till half so we can go till 1 -> n/2 and check and store t
 HERE'S THE SCENE
 
 check this image by striver
-![Divisors image](divisors/divisors.png)
+![Divisors image](divisors.png)
 
 Here we can see that if getting divisors for 36
 1 36
